@@ -204,3 +204,13 @@ input[type=submit]{
     }
 
   }
+
+  @media only screen and (max-width: 780px) {
+    header{
+        background-image: url(kepek/Névtelen4.png);
+        background-size: cover;
+        height: 250px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+  }
