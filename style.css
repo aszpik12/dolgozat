@@ -1,0 +1,206 @@
+body{
+    background-image: url(kepek/Névtelen1.png);
+    background-size: cover;
+    margin: 0px;
+    color: brown;
+}
+
+article{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.kezdolap{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+main{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(54, 13, 13);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+header{
+    background-image: url(kepek/Névtelen3.png);
+    background-size: cover;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+padding-top: 20px;
+text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+    padding-right: 30px;
+}
+
+.szunet{
+padding-bottom: 10px;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.proth2{
+    margin: auto;
+}
+
+.protfolioborder{
+    border: 1px solid rgb(110, 28, 28);
+}
+
+nav {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(110, 28, 28);
+}
+
+.kezdo{
+    text-decoration: none; 
+    padding: 5px 5px 5px 5px;
+    color: brown;
+}
+
+.kezdo:hover{
+    background-color: rgb(109, 28, 28);
+    border-radius: 5px;
+}
+
+.kezdo:visited{
+    color: brown;
+}
+
+footer{
+    border-top: 1px solid rgb(110, 28, 28);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tartalom{
+    width: 400px;
+}
+
+table, td, th{
+    margin: auto;
+    border: 1px solid brown;
+    padding: 5px;
+}
+
+.jatekok{
+    width: 600px;
+    margin: auto;
+}
+
+video{
+    width: 600px;
+    height: 400px;
+}
+
+.bemutato{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.fenykep{
+    width: 200px;
+    margin: auto;
+}
+
+legend{
+    padding: 5px 10px;
+}
+
+fieldset{
+    border-color: rgb(110, 28, 28);
+    border-style: solid;
+}
+
+input{
+    width: 100%;
+}
+
+input[type=submit]{
+    width: 15%;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 780px) {
+
+    .kezdolap{
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    video{
+        width: 400px;
+        height: 300px;
+    }
+
+    nav {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+        border-bottom: 1px solid rgb(110, 28, 28);
+    }
+
+    nav ul li{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        padding-right: 30px;
+    }
+
+    .tartalom{
+        width: 100%;
+    }
+
+    header{
+        background-image: url(kepek/rend-warhammer-40k-wallpaper.jpg);
+        background-size: cover;
+        height: 250px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .jatekok{
+        width: 100%;
+        margin: auto;
+    }
+
+    input[type=submit]{
+        width: 20%;
+        margin-top: 10px;
+    }
+
+  }
